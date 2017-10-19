@@ -8,8 +8,6 @@ import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import os
-from flask import Flask, request
-
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -332,16 +330,5 @@ class TeleBot(object):
                          text=text,
                          reply_markup=kb_markup)
 
-app = Flask(__name__)
-
 telebot = TeleBot("360267122:AAHmCyriJwzBpt5IsUIquGAxdkMtyor8xSk")
 telebot.run()
-
-@app.route('/set_webhook', methods=['GET', 'POST'])
-def set_webhook():
-    return "webhook setup ok"
-
-
-@app.route('/')
-def index():
-    return '.'
