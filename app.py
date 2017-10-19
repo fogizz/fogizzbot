@@ -53,7 +53,7 @@ class TeleBot(object):
         # Start the Bot
         print("Start Server")
         #self.updater.start_polling(poll_interval=1.0, timeout=30, read_latency=1.0)
-        PORT = int(os.environ.get('PORT', '52412'))
+        PORT = int(os.environ.get('PORT', '5000'))
         self.updater.start_webhook(listen="0.0.0.0",
                                    port=PORT,
                                    url_path=self.api_token)
