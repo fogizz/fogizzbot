@@ -57,7 +57,7 @@ class TeleBot(object):
         self.updater.start_webhook(listen="0.0.0.0",
                                    port=PORT,
                                    url_path=self.api_token)
-        self.updater.bot.set_webhook("https://<appname>.herokuapp.com/" + self.api_token)
+        self.updater.bot.set_webhook("https://fast-castle-35200.herokuapp.com/" + self.api_token)
 
         # Run the bot until you press Ctrl-C or the process receives SIGINT,
         # SIGTERM or SIGABRT. This should be used most of the time, since

@@ -23,8 +23,8 @@
       <file leaf-file-name="telebot.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/python_proj/fogizzBot/telebot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5432">
-              <caret line="352" column="13" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
+            <state relative-caret-position="158">
+              <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
               <folding>
                 <element signature="e#164#179#0" expanded="true" />
               </folding>
@@ -526,8 +526,8 @@
     </entry>
     <entry file="file://$USER_HOME$/python_proj/fogizzBot/telebot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5432">
-          <caret line="352" column="13" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
+        <state relative-caret-position="158">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
           <folding>
             <element signature="e#164#179#0" expanded="true" />
           </folding>
